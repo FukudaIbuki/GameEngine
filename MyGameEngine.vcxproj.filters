@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Engine">
+      <UniqueIdentifier>{f97a6c02-84a2-4119-ada2-ed96761d5fb7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>ソース ファイル\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MyGameEngine\Camera.cpp">
+      <Filter>ソース ファイル\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MyGameEngine\Dice.cpp">
+      <Filter>ソース ファイル\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MyGameEngine\Direct3D.cpp">
+      <Filter>ソース ファイル\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MyGameEngine\Fbx.cpp">
+      <Filter>ソース ファイル\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MyGameEngine\Quad.cpp">
+      <Filter>ソース ファイル\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MyGameEngine\Sprite.cpp">
+      <Filter>ソース ファイル\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MyGameEngine\Texture.cpp">
+      <Filter>ソース ファイル\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MyGameEngine\Transform.cpp">
+      <Filter>ソース ファイル\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="RootJob.cpp">
+      <Filter>ソース ファイル\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScene.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameObject.h">
+      <Filter>ソース ファイル\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyGameEngine\Camera.h">
+      <Filter>ソース ファイル\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyGameEngine\Dice.h">
+      <Filter>ソース ファイル\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyGameEngine\Direct3D.h">
+      <Filter>ソース ファイル\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyGameEngine\Fbx.h">
+      <Filter>ソース ファイル\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyGameEngine\Quad.h">
+      <Filter>ソース ファイル\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyGameEngine\Sprite.h">
+      <Filter>ソース ファイル\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyGameEngine\Texture.h">
+      <Filter>ソース ファイル\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyGameEngine\Transform.h">
+      <Filter>ソース ファイル\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="RootJob.h">
+      <Filter>ソース ファイル\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Simple2D.hlsl">
+      <Filter>ソース ファイル\Engine</Filter>
+    </FxCompile>
+    <FxCompile Include="Simple3D.hlsl">
+      <Filter>ソース ファイル\Engine</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
